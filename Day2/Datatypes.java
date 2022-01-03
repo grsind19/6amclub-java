@@ -3,8 +3,9 @@ class Datatypes {
     String name = "6am club";
     int time = 6;
     Boolean is_daily = true;
-    float duration = 1.45f;
+    float duration = 1.45f; //6 -7 decimal points
     char section = 'A';
+    double db = 12.67; // 15 decimals
 
     System.out.println(name); //this name
     System.out.println(name.getClass().getName());
