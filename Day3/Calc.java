@@ -12,19 +12,19 @@ class Calc {
         System.out.println("Enter the number 2: ");
         num2 = scan.nextInt();
         System.out.println("Enter the operation:");
-        char op = scan.next.charAt(0);
+        char op = scan.next().charAt(0);
         System.out.println("Operation is : " + op);
 
-        if(op=="+"){
+        if(op == '+'){
             result = num1 + num2;
             System.out.println("The addition the result is "+ result );
-        } else if(op == "-"){
+        } else if(op == '-'){
             result = num1 - num2;
             System.out.println("The addition the result is "+ result );
-        } else if(op == "*"){
+        } else if(op == '*'){
             result = num1 * num2;
             System.out.println("The addition the result is "+ result );
-        } else if(op == "/"){
+        } else if(op == '/'){
             result = num1 / num2;
             System.out.println("The addition the result is "+ result );
         } else {
